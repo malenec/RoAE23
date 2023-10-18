@@ -45,7 +45,8 @@ Der blev lavet en mindre ændring ift til dioderne, da de hidtil alle har kørt 
 
 Derudover gik vi i gang med at refactorere hele koden, så man fremover kan bruge contructoren til instatiere en kiste på de ønskede mål fremfor at det hele er manuelt indtastede tal, der også skal manuelt genberegnes i hver metode for at komponenterne flyttes tilsvarende korrekt. Vi nåede at tage hul på TopChest klassen, og jeg sørger for at refactorere resten i ferien.
 
-![ElektroSlut.jpg](Images/ElektroSlut.jpg)
+![ElectronicsFinal.jpg](Images/ElectronicsFinal.jpg)
+![All_Iterations.jpg](Images/All_Iterations.jpg)
 
 https://github.com/malenec/RoAE23/assets/90346924/af2bb2b2-f914-4a8f-a0d6-622f17d9f79e
 
