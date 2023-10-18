@@ -47,6 +47,10 @@ Derudover gik vi i gang med at refactorere hele koden, så man fremover kan brug
 
 ![ElektroSlut.jpg](Images/ElektroSlut.jpg)
 
+https://github.com/malenec/RoAE23/assets/90346924/af2bb2b2-f914-4a8f-a0d6-622f17d9f79e
+
+
+
 # 21. Onsdag den 18. oktober 2023
 Jeg har arbejdet på at refactorere resten af koden siden i fredags, og nu er den nye version merged ind i main.
 Man kan nu bruge contructoren til BottomChest klassen og TopChest klassen og instantiere en kistebund og en kistetop på et hvilket som helst givet mål. Det oprindelige firkantede låg har fået lov til at blive i koden, og man kan så vælge om man ønsker et rundt eller et firkantet låg ved instantieringen af TopChest . Alle komponenterne rykker sig relativt ift de ydre mål samt at der kastes et par exceptions, hvis der indtastes mål, der vil resultere i at komponenterne begynder at overlappe eller hvis top og bund ikke matcher i størrelse. Det tager nu længere tid end nogensinde at rendere i OpenSCAD, men det er klart også den mest præcis og generaliserede version af koden vi har haft indtil videre. Det har dertil været ret tilfredsstillende at forsøge at gennemtænke hver linje af koden ift hvorfor der stod lige præcis det tal der gjorde. Nu kører langt det meste på variabler der låser sig til en sammenhæng med de overordnede mål eller ift nogle andre komponenter der indgår, hvilket gør at sandsynligheden for fejl i beregningerne bør være minimeret.
