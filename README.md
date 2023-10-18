@@ -46,11 +46,10 @@ Der blev lavet en mindre ændring ift til dioderne, da de hidtil alle har kørt 
 Derudover gik vi i gang med at refactorere hele koden, så man fremover kan bruge contructoren til instatiere en kiste på de ønskede mål fremfor at det hele er manuelt indtastede tal, der også skal manuelt genberegnes i hver metode for at komponenterne flyttes tilsvarende korrekt. Vi nåede at tage hul på TopChest klassen, og jeg sørger for at refactorere resten i ferien.
 
 ![ElectronicsFinal.jpg](Images/ElectronicsFinal.jpg)
+
 ![All_Iterations.jpg](Images/All_Iterations.jpg)
 
-https://github.com/malenec/RoAE23/assets/90346924/af2bb2b2-f914-4a8f-a0d6-622f17d9f79e
-
-
+https://github.com/malenec/RoAE23/assets/90346924/75d6d363-d37b-4715-b2f1-63723757cd86
 
 # 21. Onsdag den 18. oktober 2023
 Jeg har arbejdet på at refactorere resten af koden siden i fredags, og nu er den nye version merged ind i main.
