@@ -52,4 +52,4 @@ Der er stadig mange ting man kunne overveje at forfine både i kode, design og p
 
 ![VariousChests1.png](..%2F..%2F..%2FDesktop%2FVariousChests1.png)
 
-![VariousChests2.png](..%2F..%2F..%2FDesktop%2FVariousChests2.png)
+![VariousChests2.jpeg](VariousChests2.jpeg)
