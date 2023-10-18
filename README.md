@@ -58,7 +58,7 @@ Printet der har kørt onsdag nat er blevet perfekt på alle andre parametre end 
 
 ![V2ofTopChestPrint.png](Images/V2ofTopChestPrint.png)
 
-# 20. Fredag den 13. oktober 2023
+# Fredag den 13. oktober 2023
 Der blev lavet endnu et testprint af låget. Udfordringen ligger i hvordan det printes med mindst mulig support og alle forsøg på et godt print har slået fejl indtil videre. Nået hertil er det åbenlyst at designet simpelthen skulle have været lavet med det faktum i mente, at vi ville undgå nødvendigheden af support fuldstændig, men den erfaring er selvfølgelig kun opnået ved at løbe hoved mod muren et antal gange, så det er nemt at være bagklog nu.
 
 Der blev lavet en mindre ændring ift til dioderne, da de hidtil alle har kørt på samme udgang hvilket resulterede i at lysintensiteten dalede diode for diode og man kunne tydeligt se hvor kredsløbet begyndte og endte. Løsningen blev at fordele det over to udgange, så de alle nu lyser lige kraftigt.
@@ -73,11 +73,12 @@ Derudover gik vi i gang med at refactorere hele koden, så man fremover kan brug
 
 https://github.com/malenec/RoAE23/assets/90346924/75d6d363-d37b-4715-b2f1-63723757cd86
 
-# 21. Onsdag den 18. oktober 2023
+# Onsdag den 18. oktober 2023
 Jeg har arbejdet på at refactorere resten af koden siden i fredags, og nu er den nye version merged ind i main.
 Man kan nu bruge contructoren til BottomChest klassen og TopChest klassen og instantiere en kistebund og en kistetop på et hvilket som helst givet mål. Det oprindelige firkantede låg har fået lov til at blive i koden, og man kan så vælge om man ønsker et rundt eller et firkantet låg ved instantieringen af TopChest . Alle komponenterne rykker sig relativt ift de ydre mål samt at der kastes et par exceptions, hvis der indtastes mål, der vil resultere i at komponenterne begynder at overlappe eller hvis top og bund ikke matcher i størrelse. Det tager nu længere tid end nogensinde at rendere i OpenSCAD, men det er klart også den mest præcis og generaliserede version af koden vi har haft indtil videre. Det har dertil været ret tilfredsstillende at forsøge at gennemtænke hver linje af koden ift hvorfor der stod lige præcis det tal der gjorde. Nu kører langt det meste på variabler der låser sig til en sammenhæng med de overordnede mål eller ift nogle andre komponenter der indgår, hvilket gør at sandsynligheden for fejl i beregningerne bør være minimeret.
 
 Der er stadig mange ting man kunne overveje at forfine både i kode, design og prints, men her slutter projektet for denne gang. Jeg fik en sjov tanke om at det kunne være et bestillingsprodukt, hvor en kunde kunne plotte sine ønskede mål ind på en hjemmeside samt oploade et billede, der ville blive til lithophane printet og så til sidst vælge en sang, og så kunne man få tilsendt sin lille æske, som var helt personlig. Nu blev vores version så til en skattekiste, men det kunne jo i virkeligheden have haft et hvilket som helst tema.
 
 ![VariousChests1.png](Images/VariousChests1.png)
+
 ![VariousChests2.png](Images/VariousChests2.png)
