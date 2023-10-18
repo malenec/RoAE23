@@ -50,5 +50,5 @@ Man kan nu bruge contructoren til BottomChest klassen og TopChest klassen og ins
 
 Der er stadig mange ting man kunne overveje at forfine både i kode, design og prints, men her slutter projektet for denne gang. Jeg fik en sjov tanke om at det kunne være et bestillingsprodukt, hvor en kunde kunne plotte sine ønskede mål ind på en hjemmeside samt oploade et billede, der ville blive til lithophane printet og så til sidst vælge en sang, og så kunne man få tilsendt sin lille æske, som var helt personlig. Nu blev vores version så til en skattekiste, men det kunne jo i virkeligheden have haft et hvilket som helst tema.
 
-![VariousChests1.jpeg](Images/VariousChests1.jpeg)
+![VariousChests1.png](Images/VariousChests1.png)
 ![VariousChests2.jpeg](Images/VariousChests2.jpeg)
