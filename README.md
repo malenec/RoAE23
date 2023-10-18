@@ -1,5 +1,5 @@
 # RoAE23
-Robotter og Automatisering Efterår 2023
+Robotter og Automatisering, Valgfag, Efterår 2023
 
 # 1. Tirsdag den 22. august 2023
 
@@ -40,5 +40,13 @@ Robotter og Automatisering Efterår 2023
 # 19. Torsdag den 12. oktober 2023
 
 # 20. Fredag den 13. oktober 2023
+Der blev lavet endnu et testprint af låget. Udfordringen ligger i hvordan det printes med mindst mulig support og alle forsøg på et godt print har slået fejl indtil videre. Nået hertil er det åbenlyst at designet simpelthen skulle have været lavet med det faktum i mente, at vi ville undgå nødvendigheden af support fuldstændig, men den erfaring er selvfølgelig kun opnået ved at løbe hoved mod muren et antal gange, så det er nemt at være bagklog nu.
+
+Derudover gik vi i gang med at refactorere hele koden, så man fremover kan bruge contructoren til instatiere en kiste på de ønskede mål fremfor at det hele er manuelt indtastede tal, der også skal manuelt genberegnes i hver metode for at komponenterne flyttes tilsvarende korrekt. Vi nåede at tage hul på TopChest klassen, og jeg sørger for at refactorere resten i ferien.
 
 # 21. Onsdag den 18. oktober 2023
+Jeg har arbejdet på at refactorere resten af koden siden i fredags, og nu er den nye version merged ind i main.
+Man kan nu bruge contructoren til BottomChest klassen og TopChest klassen og instantiere en kistebund og en kistetop på et hvilket som helst givet mål. Det oprindelige firkantede låg har fået lov til at blive i koden og man kan så vælge om man ønsker et rundt eller et firkantet låg via en boolean. Alle komponenterne rykker sig relativt ift de ydre mål samt at der kastes et par exceptions, hvis der indtastes mål, der vil resultere i at komponenterne begynder at overlappe eller hvis top og bund ikke matcher i størrelse. Det tager nu længere tid end nogensinde at rendere i OpenSCAD, men det er klart også den mest præcis og generaliserede version af koden vi har haft indtil videre. Det har dertil været ret tilfredsstillende at forsøge at gennemtænke hver linje af koden ift hvorfor der stod lige præcis det tal der gjorde. Nu kører langt det meste på variabler der låser sig til en sammenhæng med de overordnede mål eller ift nogle andre komponenter der indgår, hvilket gør at sandsynligheden for fejl i beregningerne bør være minimeret.
+
+Der er stadig mange ting man kunne overveje at forfine både i kode, design og prints, men her slutter projektet for denne gang. 
+
