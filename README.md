@@ -1,5 +1,9 @@
 # RoAE23
-Robotter og Automatisering, Valgfag, Efterår 2023
+Malene Rolsted Christensens logbog
+Robotter og Automatisering
+Valgfag med Tobias Grundtvig
+Datamatiker 4. semester
+Efterår 2023
 
 # 1. Tirsdag den 22. august 2023
 
