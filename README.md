@@ -20,6 +20,8 @@ Vi fik undervisning i hvordan et kredsløb fungerer ift volt, ohm og amperer, og
 # Mandag den 28. august 2023 - Traffic Light
 I dag har vi lavet vores halvandet trafiklys. Tobias havde tegnet de 8 states der dækkes i et trafiklys-loop, og dem fik vi kodet ind og tildelt de relevante dioder. Der var en mindre udfordring mht brugen af konstruktoren til lyskrydset, da vi netop ikke kunen lave to fulde lyskryds med 2 x 6 dioder (1 rød, 1 gul, 1 grøn til øst/vest-retningen og det samme til nord/syd-retningen). Men kontruktoren var sat op til fulde lyskryds med 6 dioder, og derfor blev vi i tvivl om hvad vi egentlig skulle skrive ved de sidste 3 pins i lyskryds nr 2. Men ellers virker det som det skal. Vi spørger Tobias i morgen.
 
+![8states.jpg](Images/8states.jpg)
+
 # Tirsdag den 29. august 2023 - Undervisning - Button
 Det viste sig at løsningen på de 3 tomme pins i kontruktoren til nr. 2 trafiklys var at skrive -1 på hver af de 3 pins. Vi havde forsøg + googlet os frem til null og forsøgt med dette, hvilket jo også ville have givet mening normalvis, men åbenbart blev det i C++ læst som 0, hvilket sendte koden for de 3 sidste pins til 0, som rent faktisk er en PIN på boarded, og det var derfor at det ikke opførte sig som det skulle, når vi koblede det andet trafiklys til.
 
@@ -27,9 +29,12 @@ Dagens tema var nye komponenter, der kunne kobles til et kredsløb på boarded. 
 
 https://github.com/malenec/RoAE23/assets/90346924/af81ef60-a4a6-4026-b0c3-f0afaafef122
 
+![button.jpg](Images/button.jpg)
+
 # Onsdag den 30. august 2023 - Sonic Sensor
 
 I dag forsøgte vi at få vores Sonic Sensor til at virke. Den fungerer ved at den har en transmitter og en receiver - transmitteren sender en høj frekvens ud, lydbølgen rammer et objekt og sender bølgen tilbage, receiver modtager ekkoet og kan beregne hvor langt væk objektet er. Vi prøvede et hav af forskellige ting, vi fandt kodeeksempler på nettet der burde virke og vi var i kontakt med Tobias, der også sendte et link til kode der burde virke, men intet fik den lille sensor til at måle noget som helst. Vi ved ikke om det er fordi den ikke får strøm nok (der findes åbenbart både en version der skal bruge 5V og en version der kan klare sig med 3.3V), om vi har overset noget helt åbenlyst, eller om den simpelthen bare ikke virker.
+![HC-SR04-Ultrasonic-Sensor-Module-Distance-Measurement-Component-Part-Front.jpg.webp](Images/HC-SR04-Ultrasonic-Sensor-Module-Distance-Measurement-Component-Part-Front.jpg.webp)
 
 # Torsdag den 31. august 2023 - Undervisning - Wifi Example
 Tobias kiggede på sensoren i dag og kunne efter utallige forsøg heller ikke få den til at virke, så det må forblive et mysterie hvorfor det ikke kunne lade sig gøre.
