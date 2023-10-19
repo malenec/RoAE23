@@ -25,7 +25,7 @@ Det viste sig at løsningen på de 3 tomme pins i kontruktoren til nr. 2 trafikl
 
 Dagens tema var nye komponenter, der kunne kobles til et kredsløb på boarded. Først legede vi med en knap, der skulle tænde for en blå diode. Vi blev undervist i den støj der ligger ifm push og release af en knap, og hvordan man koder sig udenom. Til sidst fik vi udleveret en forskellig sensor hver, som vi skal have skrevet relevant kode til til næste gang, så vi kan demonstrere sensorens funktion. Vi fik en Sonic Sensor, som kan måle afstand.
 
-https://github.com/malenec/RoAE23/assets/90346924/3aab3c28-fdd3-4d74-b681-9e6d750c59a0
+VIDEO AF TRAFFIC LIGHT
 
 # Onsdag den 30. august 2023 - Sonic Sensor
 
@@ -92,9 +92,9 @@ Det blev derudover besluttet at smykkeskrinet nu er en skattekiste. Der er funde
 # Torsdag den 28. September 2023 - Treasure Chest & Pirates Buzzer
 Jeg tog ind for at lave et par testprints af samleren (griberne og cylinderen, der skal samle æskens top og bund), så vi kan komme videre med udviklen af skattekisten. Vi eksperimenterede med at printe griberen stående med "armene" op i luften uden support, og det blev vellykket. Cylinderne til bunden, der har huller nedenunder, får support i hullerne, og det var lige til at få ud bagefter, så det fungrerer også. Den printer med blå materiale printede mest præcist, og det er vi afhængige af, når komponeneterne er så små, så der blev lavet et ekstra sæt gribere i blå. Cylinderen blev som den skulle i første go. I morgen kan vi så sætte komponenterne fast på selve æsken, så den kan printes i sin helhed.
 
-https://github.com/malenec/RoAE23/assets/90346924/8a6fbdac-f8eb-4ed4-841e-6b76cdc43deb
+VIDEO AF GRIP V2 PRINT
 
-https://github.com/malenec/RoAE23/assets/90346924/b9e8ae9c-7f89-4053-b420-abe3ca863f5d
+VIDEO AF CYLINDER V2 PRINT
 
 ![GripsAndCylinderV2.jpg](Images/GripsAndCylinderV2.jpg)
 
@@ -118,7 +118,7 @@ Første lithophane med et billede af mønter blev printet i dag til den lettere 
 
 I dag nåede vi en del, da det er sidste uge af faget, og vi skal til at have fart på, hvis vi skal nå frem til en ordentlig prototype her til sidst. Vi har været igennem virkelig mange idéer til hvor vi kan placere knappen, så den bliver trykket ned og aktiverer lyd og lys på den mest elegante måde. Vi har overvejet at sætte den i låget sammen med flere dioder og endnu et lithophane af et dødningehoved for eksempel, men det når vi ikke i denne omgang. Vi har overvejet om der skulle indgå en nøgle, som skulle kunne trykke knappen ind igennem et nøglehul i bunden. Og i dag eksperimenterede vi også kort med om vi kunne lægge knappen under lithophanen sammen med nogle fjedre (vi testede med fjedre fra kuglepenne) og så skulle noget fra låget trykke ned på lithophanen ved lukket tilstand (knappen skulle dermed bare lige kodes omvendt, så den aktiverede på release i stedet for ved push). MEN vi er nået frem til at det mest realistiske på nuværende tidspunkt er en lille knapholder i toppen af bunden og en knaptrykker i låget. Vi fik bygget en holder til knappen ind i æsken - den lille knapholder testprintede vi også 2 gange seperat, inden vi integrerede den. Knappen fik loddet ledninger på, så den bare kan slides ind gennem rillen i siden og bunden af knapholderen, og vi ikke skal bekymre os om at ledningerne falder af (de sad meget løst på). Æsken blev gjort lidt større, så der lige præcis er plads til nodeMCU i midten + 2 små boards til dioderne i bunden (1 på hver side af Node), så dioderne ikke skal ligge løst i bunden, som vi på et tidspunkt forestillede os. Der er blevet printet et større lithophane billede af mønterne til den nye størrelse æske. Og så har æsken fået kanter som møntbilledet kan ligge og hvile på. Jeg modellerede på livet løs og vendte tilbage senere på eftermiddagen, for at sætte bunden i gang i en af "de dårlige" printere. Den tager 20 timer, så hvis vi antager at den ikke bliver perfekt i første huk, skal vi udnytte nætterne til at køre testprints fra nu af. Helt impulsivt satte jeg også toppen i print i en af de andre printere, den tager 13 timer - den er mindre end bunden, men der er også sat en del support på. Jeg kommer tilbage i morgen tidlig for at se resultatet.
 
-https://github.com/malenec/RoAE23/assets/90346924/75f54e90-01bb-46aa-96ac-34228ed28c74
+VIDEO AF LITHO V2 PRINT
 
 # Onsdag den 11. oktober 2023 - Treasure Chest & Pirates Buzzer
 
@@ -160,7 +160,7 @@ Derudover gik vi i gang med at refactorere hele koden, så man fremover kan brug
 
 ![FinalChestwLight.png](Images/FinalChestwLight.png)
 
-https://github.com/malenec/RoAE23/assets/90346924/75d6d363-d37b-4715-b2f1-63723757cd86
+VIDEO AF FINAL CHEST
 
 # Onsdag den 18. oktober 2023 - Treasure Chest & Pirates Buzzer
 Jeg har arbejdet på at refactorere resten af koden, og nu er den nye version merged ind i main.
