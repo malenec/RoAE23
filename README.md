@@ -37,9 +37,17 @@ Jeg er stadig syg..
 
 # Tirsdag den 12. september 2023 - Undervisning (Train System & Connect System)
 
+I dag foreslog Tobias at vi fremover arbejder sammen på et fælles projekt, der lægger sig ovenpå et togsystem han tidligere har udviklet på. Det var der god stemning for, og vi gik i gang med at brainstorme på en lille mekanisme, der kan klikke to dele sammen, som for eksempel togskinnerne med svellerne. Konklusionen blev dog at den komponent Tobias allerede havde udviklet stadig var det bedste bud fremadrettet, så den fortsætter vi med i næste uge.
+
+![SketchIdeaForClicker.jpeg](Images/SketchIdeaForClicker.jpeg)
+
 # Fredag den 15. september 2023 - Undervisning (Click Collect)
+Vi fortsatte med clicker systemet fra sidst. Vi kiggede på, mens Tobias itererede gennem flere størrelser af den lille clicker samt det modsvarende hul, den skal kunne komme igennem. Der blev modelleret og printet.
 
 # Tirsdag den 19. september 2023 - Undervisning (Click Collect - tight/loose)
+Vi fortsatte samme set up sidst. Vi kiggede på mens Tobias kodede og printede forskellige varianter af clicker systemet. Denne gang var temaet at der skulle kunne lave både en loose og en tight samling alt efter hvad ens behov er. Længden af den lille split man stikker ind og længden af hullet kan nu også justeres efter behov. Vi fik til opgave at bruge denne version til vores egen idé til næste gang.
+
+![ClickersNextIteration.png](Images/ClickersNextIteration.png)
 
 # Onsdag den 20. september 2023 - Toothbrush
 I dag og i morgen arbejder vi på vores eget projekt, der inkluderer Tobias' Click Collect system. Jeg fik den idé at vi kunne modellere en elektrisk tandbørste, da den både gør brug af den version af clickeren han har lavet, som er loose, til drejemekanismen yderst på tandbørsten, og samtidig gør brug af den tight version af clickeren til der hvor man klikker de komponeneter sammen, der skal sidde stramt fast uden bevægelighed. Jeg har tegnet en lille tegning af min idé.
@@ -98,6 +106,8 @@ Jeg brugte eftermiddagen, da jeg kom hjem på rettelser. Jeg har ændret i tykke
 
 # Fredag den 6. oktober 2023 - Treasure Chest & Pirates Buzzer
 Første lithophane med et billede af mønter blev printet i dag til den lettere smadrede æske fra igår. Der blev testet med lys og brainstormet på hvordan vi får effekten af lithopanen frem, for dioderne var slet ikke kraftfulde nok til at give den ønskede effekt. Tobias forslog om dioderne kunne kodes til at flimre, så det var mindre synligt hvor de små lyskilder er. Vi lavede låget om fra at være firkantet til at være rundet, så det samlede look mere ligner en rigtig skattekiste.
+
+![LithophaneV1.jpeg](Images/LithophaneV1.jpeg)
 
 # Tirsdag den 10. oktober 2023 - Treasure Chest & Pirates Buzzer
 
