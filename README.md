@@ -34,10 +34,13 @@ https://github.com/malenec/RoAE23/assets/90346924/af81ef60-a4a6-4026-b0c3-f0afaa
 # Onsdag den 30. august 2023 - Sonic Sensor
 
 I dag forsøgte vi at få vores Sonic Sensor til at virke. Den fungerer ved at den har en transmitter og en receiver - transmitteren sender en høj frekvens ud, lydbølgen rammer et objekt og sender bølgen tilbage, receiver modtager ekkoet og kan beregne hvor langt væk objektet er. Vi prøvede et hav af forskellige ting, vi fandt kodeeksempler på nettet der burde virke og vi var i kontakt med Tobias, der også sendte et link til kode der burde virke, men intet fik den lille sensor til at måle noget som helst. Vi ved ikke om det er fordi den ikke får strøm nok (der findes åbenbart både en version der skal bruge 5V og en version der kan klare sig med 3.3V), om vi har overset noget helt åbenlyst, eller om den simpelthen bare ikke virker.
+
 ![HC-SR04-Ultrasonic-Sensor-Module-Distance-Measurement-Component-Part-Front.jpg.webp](Images/HC-SR04-Ultrasonic-Sensor-Module-Distance-Measurement-Component-Part-Front.jpg.webp)
 
 # Torsdag den 31. august 2023 - Undervisning - Wifi Example
 Tobias kiggede på sensoren i dag og kunne efter utallige forsøg heller ikke få den til at virke, så det må forblive et mysterie hvorfor det ikke kunne lade sig gøre.
+
+Vi lavede i dag en opsætning der gjorde det muligt at bygge en webserver vha NodeMCU’en. Da vi uploadede koden til NodeMCU’en fik vi en vist en IP adresse i terminalen, og når vi gik ind på den via vores mobil WiFi, som også var den info vi skrev ind i koden, så kunne vi skrive henholdsvis /gpio/0 og /gpio/1 efter IP’en og herved tænde og slukke for en diode, vi havde koblet til NodeMCU’en. Jeg eksperimenterede med at udvidede med flere dioder i forskellige farver samt udvide koden, så /0 og /1 tændte og slukkede den første farve, mens /2 og /3 tændte og slukkede den næste osv. Så kunne jeg tænde og slukke for samtlige dioder en ad gangen og styre præcis hvor mange der var tændte og slukkede på et givet tidspunkt via WiFi forbindelsen.
 
 # Tirsdag den 5. september 2023 - Undervisning (3D printer opsætning)
 Jeg er syg..
@@ -52,7 +55,7 @@ I dag foreslog Tobias at vi fremover arbejder sammen på et fælles projekt, der
 ![SketchIdeaForClicker.jpeg](Images/SketchIdeaForClicker.jpeg)
 
 # Fredag den 15. september 2023 - Undervisning (Click Collect)
-Vi fortsatte med clicker systemet fra sidst. Vi kiggede på, mens Tobias itererede gennem flere størrelser af den lille clicker samt det modsvarende hul, den skal kunne komme igennem. Der blev modelleret og printet.
+Barn syg..
 
 # Tirsdag den 19. september 2023 - Undervisning (Click Collect - tight/loose)
 Vi fortsatte samme set up sidst. Vi kiggede på mens Tobias kodede og printede forskellige varianter af clicker systemet. Denne gang var temaet at der skulle kunne lave både en loose og en tight samling alt efter hvad ens behov er. Længden af den lille split man stikker ind og længden af hullet kan nu også justeres efter behov. Vi fik til opgave at bruge denne version til vores egen idé til næste gang.
