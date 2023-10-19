@@ -116,6 +116,14 @@ Bunden manglede også hullerne under griberne, de var røget i svinget, da vi ud
 
 ![FailedPrintingAttempt.jpg](Images/FailedPrintingAttempt.jpg)
 
+![BottomPrintV2wLitho.png](Images/BottomPrintV2wLitho.png)
+
+![CylinderButtonPush.png](Images/CylinderButtonPush.png)
+
+![SquareButtonPush.png](Images/SquareButtonPush.png)
+
+![HalfSquareButtonPush.png](Images/HalfSquareButtonPush.png)
+
 # Torsdag den 12. oktober 2023 - Treasure Chest & Pirates Buzzer
 
 Printet der har kørt onsdag nat er blevet rimelig perfekt på alle andre parametre end på overfladen af låget, hvor supporten desværre sad så godt fast at den rev noget af lågets overflade med af, da jeg fjernede det, mens andre dele af supporten sidder så godt fast at jeg slet ikke kan fjerne den. De er simpelthen gået i symbiose, og vi vurderer ikke at det er et printerproblem, men et support/design-problem. I dag besluttede vi så i stedet at lave et eksperiment med at printe låget 180 grader roteret, så toppen af låget vender opad. Vi har lagt support under hele underkantet i stedet, men ikke inde i rundingen i håb om at printeren lige præcis kan klare den del uden support, da den jo netop er rund. Underdelen har vi ingen problemer med længere, så den printes ikke igen. Alt fungerer ift beholderen til knappen og samlingen af over- og underdel.
