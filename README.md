@@ -162,6 +162,9 @@ Derudover gik vi i gang med at refactorere hele koden, så man fremover kan brug
 
 VIDEO AF FINAL CHEST
 
+https://github.com/malenec/RoAE23/assets/90346924/12f824a2-fcbe-4d91-96fb-644d1ebcca9d
+
+
 # Onsdag den 18. oktober 2023 - Treasure Chest & Pirates Buzzer
 Jeg har arbejdet på at refactorere resten af koden, og nu er den nye version merged ind i main.
 
