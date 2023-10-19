@@ -44,6 +44,8 @@ Tobias kiggede på sensoren i dag og kunne efter utallige forsøg heller ikke f�
 
 Vi lavede i dag en opsætning der gjorde det muligt at bygge en webserver vha NodeMCU’en. Da vi uploadede koden til NodeMCU’en fik vi en vist en IP adresse i terminalen, og når vi gik ind på den via vores mobil WiFi, som også var den info vi skrev ind i koden, så kunne vi skrive henholdsvis /gpio/0 og /gpio/1 efter IP’en og herved tænde og slukke for en diode, vi havde koblet til NodeMCU’en. Vi eksperimenterede med at udvide med flere dioder i forskellige farver samt udvide koden, så /0 og /1 tændte og slukkede den første farve, mens /2 og /3 tændte og slukkede den næste osv. Så kunne vi tænde og slukke for samtlige dioder en ad gangen og styre præcis hvor mange der var tændte og slukkede på et givet tidspunkt via WiFi forbindelsen.
 
+https://github.com/malenec/RoAE23/assets/90346924/3fd33993-b7db-48e1-aeff-404b29f10e52
+
 # Tirsdag den 5. september 2023 - Undervisning (3D printer opsætning)
 Jeg er syg..
 
