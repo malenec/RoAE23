@@ -48,16 +48,16 @@ Jeg er syg..
 # Torsdag den 7.  september 2023 - Undervisning (NodeMCU Cutout)
 Jeg er stadig syg..
 
-# Tirsdag den 12. september 2023 - Undervisning (Train System & Connect System)
+# Tirsdag den 12. september 2023 - Undervisning (Train System & Click Connect System)
 
 I dag foreslog Tobias at vi fremover arbejder sammen på et fælles projekt, der lægger sig ovenpå et togsystem han tidligere har udviklet på. Det var der god stemning for, og vi gik i gang med at brainstorme på en lille mekanisme, der kan klikke to dele sammen, som for eksempel togskinnerne med svellerne. Konklusionen blev dog at den komponent Tobias allerede havde udviklet stadig var det bedste bud fremadrettet, så den fortsætter vi med i næste uge.
 
 ![SketchIdeaForClicker.jpeg](Images/SketchIdeaForClicker.jpeg)
 
-# Fredag den 15. september 2023 - Undervisning (Click Collect)
+# Fredag den 15. september 2023 - Undervisning (Click Connect)
 Barn syg..
 
-# Tirsdag den 19. september 2023 - Undervisning (Click Collect - tight/loose)
+# Tirsdag den 19. september 2023 - Undervisning (Click Connect - tight/loose)
 Vi fortsatte samme set up sidst. Vi kiggede på mens Tobias kodede og printede forskellige varianter af clicker systemet. Denne gang var temaet at der skulle kunne lave både en loose og en tight samling alt efter hvad ens behov er. Længden af den lille split man stikker ind og længden af hullet kan nu også justeres efter behov. Vi fik til opgave at bruge denne version til vores egen idé til næste gang.
 
 ![ClickersNextIteration.png](Images/ClickersNextIteration.png)
