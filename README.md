@@ -23,6 +23,8 @@ I dag har vi lavet vores halvandet trafiklys. Tobias havde tegnet de 8 states de
 # Tirsdag den 29. august 2023 - Undervisning - Button
 Det viste sig at løsningen på de 3 tomme pins i kontruktoren til nr. 2 trafiklys var at skrive -1 på hver af de 3 pins. Vi havde forsøg + googlet os frem til null og forsøgt med dette, hvilket jo også ville have givet mening normalvis, men åbenbart blev det i C++ læst som 0, hvilket sendte koden for de 3 sidste pins til 0, som rent faktisk er en PIN på boarded, og det var derfor at det ikke opførte sig som det skulle, når vi koblede det andet trafiklys til.
 
+![TrafficLight](https://github.com/malenec/RoAE23/assets/90346924/304f88cf-d811-4290-97ba-698a82ff8719)
+
 # Onsdag den 30. august 2023 - Undervisning - Sonic Sensor
 
 # Torsdag den 31. august 2023 - Undervisning - Wifi Example
@@ -77,7 +79,9 @@ Det blev derudover besluttet at smykkeskrinet nu er en skattekiste. Der er funde
 # Torsdag den 28. September 2023 - Treasure Chest & Pirates Buzzer
 Jeg tog ind for at lave et par testprints af samleren (griberne og cylinderen, der skal samle æskens top og bund), så vi kan komme videre med udviklen af skattekisten. Vi eksperimenterede med at printe griberen stående med "armene" op i luften uden support, og det blev vellykket. Cylinderne til bunden, der har huller nedenunder, får support i hullerne, og det var lige til at få ud bagefter, så det fungrerer også. Den printer med blå materiale printede mest præcist, og det er vi afhængige af, når komponeneterne er så små, så der blev lavet et ekstra sæt gribere i blå. Cylinderen blev som den skulle i første go. I morgen kan vi så sætte komponenterne fast på selve æsken, så den kan printes i sin helhed.
 
-VIDEO
+![GripV1Print](https://github.com/malenec/RoAE23/assets/90346924/99945f23-b979-42b5-9f12-673b2ca650a4)
+
+![CylinderV1Print](https://github.com/malenec/RoAE23/assets/90346924/18983f2c-1246-4cad-97b1-71eecedb9ec8)
 
 ![GripsAndCylinderV2.jpg](Images/GripsAndCylinderV2.jpg)
 
@@ -99,7 +103,8 @@ Første lithophane med et billede af mønter blev printet i dag til den lettere 
 
 I dag nåede vi en del, da det er sidste uge af faget, og vi skal til at have fart på, hvis vi skal nå frem til en ordentlig prototype her til sidst. Knappen fik loddet ledninger på, så den bare kan slides ind gennem rillen i knapholderen og vi ikke skal bekymre os om at ledningerne falder af (de sad meget løst på). Æsken blev gjort lidt større, så der lige præcis er plads til nodeMCU i midten + 2 små boards til dioderne i bunden (1 på hver side af Node), så dioderne ikke skal ligge løst i bunden, som vi på et tidspunkt forestillede os. Der er blevet printet et større lithophane billede af mønterne til den nye størrelse æske. Der er blevet bygget en holder til knappen ind i æsken - den lille knapholder testprintede vi også 2 gange seperat inden vi integrerede den i æsken. Og så har æsken fået kanter som møntbilledet kan ligge og hvile på. Jeg modellerede på livet løs og vendte tilbage senere på eftermiddagen, for at sætte bunden i gang i en af "de dårlige" printere. Den tager 20 timer, så hvis vi antager at den ikke bliver perfekt i første huk, skal vi udnytte nætterne til at køre testprints fra nu af. Helt impulsivt satte jeg også toppen i print i en af de andre printere, den tager 13 timer - den er mindre end bunden, men der er også sat en del support på. Jeg kommer tilbage i morgen tidlig for at se resultatet.
 
-VIDEO
+https://github.com/malenec/RoAE23/assets/90346924/75f54e90-01bb-46aa-96ac-34228ed28c74
+
 BILLEDE
 
 # Onsdag den 11. oktober 2023 - Treasure Chest & Pirates Buzzer
@@ -110,6 +115,10 @@ Jeg havde “heldigvis” opdaget et par mangler ved den version jeg havde sat o
 Bunden manglede også hullerne under griberne, de var røget i svinget, da vi udvidede hele kisten - det bliver godt når det hele bliver refactoreret til at tage variabler i stedet for hard codede tal, så disse fjollede fejl kan undgåes.
 
 BILLEDER
+
+
+
+
 
 # Torsdag den 12. oktober 2023 - Treasure Chest & Pirates Buzzer
 
