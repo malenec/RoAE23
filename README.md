@@ -1,4 +1,5 @@
 # RoAE23
+
 Malene Rolsted Christensens logbog
 
 Robotter og Automatisering
@@ -7,9 +8,9 @@ Valgfag med Tobias Grundtvig
 
 Datamatiker 4. semester
 
-*GitHub har været en smule ustabilt ift at afspille videoerne i logbogen i dag, torsdag den 19. oktober, så hvis de bare bliver ved med at stå og loade, har jeg selv kunne se dem alle sammen uden problemer ved at tilgå logbogen på telefonen i stedet (jeg ved ikke hvorfor i alverden det skulle gøre en forskel, men det har det af urandsagelige årsager gjort i dag).
-
 Efterår 2023
+
+*** GitHub har været en smule ustabilt ift at afspille videoerne i logbogen i dag, torsdag den 19. oktober, så hvis de bare bliver ved med at stå og loade, har jeg selv kunne se dem alle sammen uden problemer ved at tilgå logbogen på telefonen i stedet (jeg ved ikke hvorfor i alverden det skulle gøre en forskel, men det har det af urandsagelige årsager gjort i dag) ***
 
 # Tirsdag den 22. august 2023 - First Blink
 Vi fik udleveret en NodeMCU 1.0 (ESP-12E Module) og satte vores første projekt op vha af Platform IO i VSCode. Vi har i fællesskab skrevet kode, der får de små indbyggede dioder i nodeMCU’en til at blinke på skift ved brug af delay (som ellers på længere sigt er no go, da det standser alt andet kode i at blive eksekveret samtidig). Til næste gang skal der skaffes kabel og testes at opsætningen virker efter hensigten, når NodeMCU'en modtager koden samt strøm via computeren.
