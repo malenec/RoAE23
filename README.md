@@ -23,7 +23,11 @@ I dag har vi lavet vores halvandet trafiklys. Tobias havde tegnet de 8 states de
 # Tirsdag den 29. august 2023 - Undervisning - Button
 Det viste sig at løsningen på de 3 tomme pins i kontruktoren til nr. 2 trafiklys var at skrive -1 på hver af de 3 pins. Vi havde forsøg + googlet os frem til null og forsøgt med dette, hvilket jo også ville have givet mening normalvis, men åbenbart blev det i C++ læst som 0, hvilket sendte koden for de 3 sidste pins til 0, som rent faktisk er en PIN på boarded, og det var derfor at det ikke opførte sig som det skulle, når vi koblede det andet trafiklys til.
 
-![TrafficLight](https://github.com/malenec/RoAE23/assets/90346924/304f88cf-d811-4290-97ba-698a82ff8719)
+
+
+https://github.com/malenec/RoAE23/assets/90346924/3aab3c28-fdd3-4d74-b681-9e6d750c59a0
+
+
 
 # Onsdag den 30. august 2023 - Undervisning - Sonic Sensor
 
@@ -79,9 +83,9 @@ Det blev derudover besluttet at smykkeskrinet nu er en skattekiste. Der er funde
 # Torsdag den 28. September 2023 - Treasure Chest & Pirates Buzzer
 Jeg tog ind for at lave et par testprints af samleren (griberne og cylinderen, der skal samle æskens top og bund), så vi kan komme videre med udviklen af skattekisten. Vi eksperimenterede med at printe griberen stående med "armene" op i luften uden support, og det blev vellykket. Cylinderne til bunden, der har huller nedenunder, får support i hullerne, og det var lige til at få ud bagefter, så det fungrerer også. Den printer med blå materiale printede mest præcist, og det er vi afhængige af, når komponeneterne er så små, så der blev lavet et ekstra sæt gribere i blå. Cylinderen blev som den skulle i første go. I morgen kan vi så sætte komponenterne fast på selve æsken, så den kan printes i sin helhed.
 
-![GripV1Print](https://github.com/malenec/RoAE23/assets/90346924/99945f23-b979-42b5-9f12-673b2ca650a4)
+https://github.com/malenec/RoAE23/assets/90346924/8a6fbdac-f8eb-4ed4-841e-6b76cdc43deb
 
-![CylinderV1Print](https://github.com/malenec/RoAE23/assets/90346924/18983f2c-1246-4cad-97b1-71eecedb9ec8)
+https://github.com/malenec/RoAE23/assets/90346924/b9e8ae9c-7f89-4053-b420-abe3ca863f5d
 
 ![GripsAndCylinderV2.jpg](Images/GripsAndCylinderV2.jpg)
 
