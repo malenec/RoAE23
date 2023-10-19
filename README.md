@@ -23,11 +23,7 @@ I dag har vi lavet vores halvandet trafiklys. Tobias havde tegnet de 8 states de
 # Tirsdag den 29. august 2023 - Undervisning - Button
 Det viste sig at løsningen på de 3 tomme pins i kontruktoren til nr. 2 trafiklys var at skrive -1 på hver af de 3 pins. Vi havde forsøg + googlet os frem til null og forsøgt med dette, hvilket jo også ville have givet mening normalvis, men åbenbart blev det i C++ læst som 0, hvilket sendte koden for de 3 sidste pins til 0, som rent faktisk er en PIN på boarded, og det var derfor at det ikke opførte sig som det skulle, når vi koblede det andet trafiklys til.
 
-
-
 https://github.com/malenec/RoAE23/assets/90346924/3aab3c28-fdd3-4d74-b681-9e6d750c59a0
-
-
 
 # Onsdag den 30. august 2023 - Undervisning - Sonic Sensor
 
@@ -105,7 +101,7 @@ Første lithophane med et billede af mønter blev printet i dag til den lettere 
 
 # Tirsdag den 10. oktober 2023 - Treasure Chest & Pirates Buzzer
 
-I dag nåede vi en del, da det er sidste uge af faget, og vi skal til at have fart på, hvis vi skal nå frem til en ordentlig prototype her til sidst. Knappen fik loddet ledninger på, så den bare kan slides ind gennem rillen i knapholderen og vi ikke skal bekymre os om at ledningerne falder af (de sad meget løst på). Æsken blev gjort lidt større, så der lige præcis er plads til nodeMCU i midten + 2 små boards til dioderne i bunden (1 på hver side af Node), så dioderne ikke skal ligge løst i bunden, som vi på et tidspunkt forestillede os. Der er blevet printet et større lithophane billede af mønterne til den nye størrelse æske. Der er blevet bygget en holder til knappen ind i æsken - den lille knapholder testprintede vi også 2 gange seperat inden vi integrerede den i æsken. Og så har æsken fået kanter som møntbilledet kan ligge og hvile på. Jeg modellerede på livet løs og vendte tilbage senere på eftermiddagen, for at sætte bunden i gang i en af "de dårlige" printere. Den tager 20 timer, så hvis vi antager at den ikke bliver perfekt i første huk, skal vi udnytte nætterne til at køre testprints fra nu af. Helt impulsivt satte jeg også toppen i print i en af de andre printere, den tager 13 timer - den er mindre end bunden, men der er også sat en del support på. Jeg kommer tilbage i morgen tidlig for at se resultatet.
+I dag nåede vi en del, da det er sidste uge af faget, og vi skal til at have fart på, hvis vi skal nå frem til en ordentlig prototype her til sidst. Vi har været igennem virkelig mange idéer til hvor vi kan placere knappen, så den bliver trykket ned og aktiverer lyd og lys på den mest elegante måde. Vi har overvejet at sætte den i låget sammen med flere dioder og endnu et lithophane af et dødningehoved for eksempel, men det når vi ikke i denne omgang. Vi har overvejet om der skulle indgå en nøgle, som skulle kunne trykke knappen ind igennem et nøglehul i bunden. Og i dag eksperimenterede vi også kort med om vi kunne lægge knappen under lithophanen sammen med nogle fjedre (vi testede med fjedre fra kuglepenne) og så skulle noget fra låget trykke ned på lithophanen ved lukket tilstand (knappen skulle dermed bare lige kodes omvendt, så den aktiverede på release i stedet for ved push). MEN vi er nået frem til at det mest realistiske på nuværende tidspunkt er en lille knapholder i toppen af bunden og en knaptrykker i låget. Vi fik bygget en holder til knappen ind i æsken - den lille knapholder testprintede vi også 2 gange seperat, inden vi integrerede den. Knappen fik loddet ledninger på, så den bare kan slides ind gennem rillen i siden og bunden af knapholderen, og vi ikke skal bekymre os om at ledningerne falder af (de sad meget løst på). Æsken blev gjort lidt større, så der lige præcis er plads til nodeMCU i midten + 2 små boards til dioderne i bunden (1 på hver side af Node), så dioderne ikke skal ligge løst i bunden, som vi på et tidspunkt forestillede os. Der er blevet printet et større lithophane billede af mønterne til den nye størrelse æske. Og så har æsken fået kanter som møntbilledet kan ligge og hvile på. Jeg modellerede på livet løs og vendte tilbage senere på eftermiddagen, for at sætte bunden i gang i en af "de dårlige" printere. Den tager 20 timer, så hvis vi antager at den ikke bliver perfekt i første huk, skal vi udnytte nætterne til at køre testprints fra nu af. Helt impulsivt satte jeg også toppen i print i en af de andre printere, den tager 13 timer - den er mindre end bunden, men der er også sat en del support på. Jeg kommer tilbage i morgen tidlig for at se resultatet.
 
 https://github.com/malenec/RoAE23/assets/90346924/75f54e90-01bb-46aa-96ac-34228ed28c74
 
@@ -116,13 +112,9 @@ BILLEDE
 Dagen startede med at jeg kom over på skolen for at se resultat af nattens printe-session, og det viste sig at printeren, der skulle have printet låget til kisten, havde spyttet slangen til materialet ud lige efter jeg var gået. På billedet ses den gul kistebund, der stadig er i gang med at blive printet (det var de 20 timer), og den røde kistebund, hvor den kun lige har nået at printe starten af fundamentet, og så har den ellers bare krusedullet det uopvarmede materiale ud over det hele.
 
 Jeg havde “heldigvis” opdaget et par mangler ved den version jeg havde sat over igår, da det var en yderst forhastet process og ovenikøbet helt impulsiv også at sætte toppen i print, så der er mange rettelser lige at tilføje inden printerne sættes i gang igen. Toppen manglede knaptrykkeren, så det har jeg eksperimenteret en del med at modellere i dag, og vi landede på en version, hvor det er en kasse, der kun trykker på halvdelen af knappen (den laveste del af knappen), for at undgå at trykke det stykke metal, der stikker op fra knappen skævt. Trykkeren sidder i låget og kommer derfor fra en skæv vinkel, når låget drejer ned over, og det har vi forsøgt at tage højde for på denne måde.
-Bunden manglede også hullerne under griberne, de var røget i svinget, da vi udvidede hele kisten - det bliver godt når det hele bliver refactoreret til at tage variabler i stedet for hard codede tal, så disse fjollede fejl kan undgåes.
+Bunden manglede også hullerne under griberne, de var røget i svinget, da vi udvidede hele kisten - det bliver godt når det hele bliver refactoreret til at tage variabler i stedet for hard codede tal, så disse fjollede fejl kan undgåes. Men vi fik testet at der var plads til alt elektronikken, og der var alt lige som det skulle være og litho passede super fint i æsken. Jeg udvidede også kanterne billedet hviler på en smule, da det en enkelt gang faldt igennem.
 
-BILLEDER
-
-
-
-
+![FailedPrintingAttempt.jpg](Images/FailedPrintingAttempt.jpg)
 
 # Torsdag den 12. oktober 2023 - Treasure Chest & Pirates Buzzer
 
