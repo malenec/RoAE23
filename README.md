@@ -29,6 +29,10 @@ Dagens tema var nye komponenter, der kunne kobles til et kredsløb på boarded. 
 
 https://github.com/malenec/RoAE23/assets/90346924/3aab3c28-fdd3-4d74-b681-9e6d750c59a0
 
+
+https://github.com/malenec/RoAE23/assets/90346924/9a7cfcbe-7e31-4d72-970c-d154d649fe88
+
+
 ![button.jpg](Images/button.jpg)
 
 # Onsdag den 30. august 2023 - Sonic Sensor
